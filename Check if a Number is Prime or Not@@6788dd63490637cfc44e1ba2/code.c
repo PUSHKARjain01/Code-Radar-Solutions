@@ -17,7 +17,7 @@ bool checkprime(int n){
 int main(){
     int n;
     scanf("%d",&n);
-    bool ans = checkprime(n)
+    bool ans = checkprime(n);
     if(ans == True){
         printf("Prime");
     }
