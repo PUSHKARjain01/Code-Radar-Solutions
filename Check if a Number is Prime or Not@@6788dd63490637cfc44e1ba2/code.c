@@ -1,19 +1,18 @@
 #include <stdio.h>
-#include <stdbool.h>
 bool checkprime(int n){
     for(int i = 2;i<n;i++){
         if(n==2){
             return true;
         }
         else if(n%i==0){
-            return false;
+            return true;
         }
         else{
-            return true;
+            return false;
 
         }
     }
-    return true;
+    return false;
 }
 int main(){
     int n;
