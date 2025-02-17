@@ -9,7 +9,7 @@ bool checkprime(int n){
             return false;
         }
         else{
-            return false;
+            return true;
 
         }
     }
