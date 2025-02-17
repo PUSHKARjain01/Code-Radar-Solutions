@@ -2,23 +2,23 @@
 bool checkprime(int n){
     for(int i = 2;i<n;i++){
         if(n==2){
-            return True;
+            return true;
         }
         else if(n%i==0){
-            return True;
+            return true;
         }
         else{
-            return False;
+            return false;
 
         }
     }
-    return False;
+    return false;
 }
 int main(){
     int n;
     scanf("%d",&n);
     bool ans = checkprime(n);
-    if(ans == True){
+    if(ans == true){
         printf("Prime");
     }
     else{
