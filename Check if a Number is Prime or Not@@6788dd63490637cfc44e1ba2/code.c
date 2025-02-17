@@ -6,7 +6,7 @@ bool checkprime(int n){
             return true;
         }
         else if(n%i==0){
-            return true;
+            return false;
         }
         else{
             return false;
