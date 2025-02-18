@@ -8,12 +8,11 @@ int main() {
     printf("Enter a character: ");
     scanf("%c", &ch);
     
-    // Convert the character to lowercase to handle both uppercase and lowercase vowels
     ch = tolower(ch);
 
-    // Check if the character is a vowel
+   
     if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-        printf("The character '%c' is a vowel.\n", ch);
+        printf("Vowel");
     } else {
         printf("The character '%c' is not a vowel.\n", ch);
     }
