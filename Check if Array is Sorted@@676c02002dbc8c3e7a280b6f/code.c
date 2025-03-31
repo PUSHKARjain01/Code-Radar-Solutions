@@ -2,13 +2,13 @@
 bool checksorting(int n,int arr[n]){
        for(int i = 0;i<n;i++){
      if(arr[i]<=arr[i+1]){
-        return true;
+        return True;
      }
      else{
         return False;
      }
     }
-    return 0;
+    return True;
     
 }
 int main(){
