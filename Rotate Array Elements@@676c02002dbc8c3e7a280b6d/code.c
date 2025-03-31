@@ -10,10 +10,10 @@ int main(){
     scanf("%d",&k);
     for(int i = 0;i<n;i++){
         if(i+k<=n){
-        arr[i] = arr[i+k];
+        arr[i] == arr[i+k];
         }
         else{
-            arr[i]=arr[i+k-n];
+            arr[i]==arr[i+k-n];
         }
     }
     for(int j = 0;j<n;j++){
