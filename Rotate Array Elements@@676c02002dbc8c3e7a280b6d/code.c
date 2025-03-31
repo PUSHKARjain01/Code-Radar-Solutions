@@ -4,16 +4,17 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     int k;
+    int prr[n];
     for(int i = 0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&k);
     for(int i = 0;i<n;i++){
         if(i+k<=n){
-        arr[i] =arr[i+k];
+        arr[i] =prr[i+k];
         }
         else{
-            arr[i]==arr[i+k-n];
+            arr[i]= prr[i+k-n];
         }
     }
     for(int j = 0;j<n;j++){
