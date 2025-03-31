@@ -19,7 +19,7 @@ int main(){
     for(int i = 0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    bool ans = checksorting(n,arr[]);
+    bool ans = checksorting(n,arr);
     if(ans == true){
         printf("Sorted");
     }
