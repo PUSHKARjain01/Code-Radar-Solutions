@@ -11,10 +11,10 @@ int main(){
     scanf("%d",&k);
     for(int i = 0;i<n;i++){
         if(i+k<=n){
-        arr[i] =prr[i+k];
+        prr[i+k] = arr[i];
         }
         else{
-            arr[i]= prr[i+k-n];
+             prr[i+k-n] = arr[i];
         }
     }
     for(int j = 0;j<n;j++){
