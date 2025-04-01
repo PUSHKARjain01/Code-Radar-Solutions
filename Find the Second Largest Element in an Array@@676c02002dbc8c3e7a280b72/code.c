@@ -28,7 +28,7 @@ int main(){
             break;
         }
         else{
-            return -1;
+          printf("d");
         }
     } 
 
