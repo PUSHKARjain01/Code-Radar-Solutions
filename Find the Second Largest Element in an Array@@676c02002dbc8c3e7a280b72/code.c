@@ -20,7 +20,7 @@ int main(){
     for(int i = 0;i<n;i++){
         scanf("%d",&arr[i]);
     } 
-    sorting(n,arr)
+    sorting(n,arr);
     int ans = arr[n-2];
     printf("%d",ans);
 }
