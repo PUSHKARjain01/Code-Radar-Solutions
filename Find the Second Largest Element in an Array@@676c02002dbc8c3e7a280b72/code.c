@@ -29,6 +29,7 @@ int main(){
         }
         else{
           printf("d");
+          break
         }
     } 
 
