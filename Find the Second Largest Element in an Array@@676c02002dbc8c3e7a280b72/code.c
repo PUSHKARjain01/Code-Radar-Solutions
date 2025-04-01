@@ -27,7 +27,7 @@ int main(){
             printf("%d",ans);
         }
         else{
-            printf("%d",-1)
+            printf("%d",-1);
         }
     } 
 
